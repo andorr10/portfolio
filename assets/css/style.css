@@ -1,0 +1,65 @@
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+ul{
+  margin-right: 2em;
+  border-radius: 10px;
+}
+/*--------------------------------------------------------------------------*/
+/*-------------------------styling for user actions-------------------------*/
+/*--------------------------------------------------------------------------*/
+.redirect:hover{
+  background-color: #ebfbfb17;
+  color: black;
+  text-decoration: underline;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------------------------*/
+/*-----------------------styling for specific classes-----------------------*/
+/*--------------------------------------------------------------------------*/
+
+.navbar {
+  overflow: hidden;
+  /*background-color: #333;*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar ul {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  opacity: 50%;
+}
+.landingPage{
+  color: white;
+}
+
+
+/*--------------------------------------------------------------------------*/
+/*-------------------------styling for specific ids-------------------------*/
+/*--------------------------------------------------------------------------*/
+#background{
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+
+#headshot{
+  height: 15%;
+  width:15%;
+  position: center;
+}
