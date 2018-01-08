@@ -21,15 +21,43 @@
 <!--body of website -->
 	<body background ="assets/images/background.jpg">
     <header>
-					<h1>AO</h1>
+					<h1 id="initials"><a href = "index.html">AO</a></h1>
           <nav class = "navbar">
 	            <ul class = "redirect" id = "about" ><a href = "about.html">About</a></ul>
 	            <ul class = "redirect" id = "projects"><a href= "projects.html">Projects</a></ul>
 	            <ul class = "redirect" id = "contact"><a href = "contact.html">Contact</a></ul>
+              <ul class = "redirect hidden" id = "blog"><a href = "contact.html">Blog</a></ul>
+
           </nav>
     </header>
 		<div class = "container">
-		<img id = "headshot" src= "assets/images/headshot.jpg" alt = "image">
+      <div id= "imageContainer">
+        <img id = "headshot" src= "assets/images/headshot.jpg" alt = "image">
+        <p class = "aboutSection" >I'm a full stack web developer living in Austin but originally from Los Angeles.  After spending a few years in healthcare consulting I decided to make the long awaited jump over to tech and have been loving it ever since.</p>
+        <p class = "aboutSection">If I'm not coding, you can find me playing beach volleyball, listening to podcast or playing Settlers of Catan.</p>
+    	</div>
+		<div id= "skillsContainer">
+				<h2>
+					<ul>Skills:</ul>
+				</h2>
+				<h3>Front-End</h3>
+					<li class = "skill">HTML</li>
+					<li class = "skill">CSS</li>
+					<li class = "skill">JavaScript</li>
+					<li class = "skill">JQuery</li>
+					<li class = "skill">React</li>
+				<h3>Databases</h3>
+					<li class = "skill">Firebase</li>
+					<li class = "skill">MySQL</li>
+					<li class = "skill">MongoDB</li>
+				<h3>Back-End</h3>
+					<li class = "skill">Node</li>
+					<li class = "skill">Express</li>
+					<li class = "skill">Passport.js</li>
+					<li class = "skill">Socket.io</li>
+
+		</div>
+      
 
 
 		</div>

@@ -4,29 +4,82 @@ a:link {
     background-color: transparent;
     text-decoration: none;
 }
-
+body{
+background-size: cover;
+background-repeat: no-repeat;
+}
+li{
+  color: white;
+  font-size: 1em;
+}
+a{
+  text-align: center;
+}
+p{
+  padding-left: 1em;;
+}
 ul{
   margin-right: 2em;
   border-radius: 10px;
 }
+
 /*--------------------------------------------------------------------------*/
 /*-------------------------styling for user actions-------------------------*/
 /*--------------------------------------------------------------------------*/
+.col-md-5:hover{
+  box-sizing: border-box;
+  background-color: #ebfbfb17;
+  border-style: solid;
+  border-color: white;
+  border-radius: 15px;
+  border-width: thick;
+  color: black;
+  text-decoration: underline;
+}
 .redirect:hover{
   background-color: #ebfbfb17;
   color: black;
   text-decoration: underline;
 }
+.redirect:visited{
+  color: black;
+}
 a:visited {
-    color: white;
+    border: white;
     background-color: transparent;
     text-decoration: none;
+
+}
+.portfolioPiece:hover{
+  border:white;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------------------*/
 /*-----------------------styling for specific classes-----------------------*/
 /*--------------------------------------------------------------------------*/
-
+.col-container{
+height: 100%;
+width:100%;
+display: table;
+position:fixed;
+}
+.col-md-5{
+  border-style: solid;
+  border-width: medium;
+  margin: 1em;
+  text-align: center;
+}
+.portfolioPiece{
+  width: 19.5%;
+  height: 5em;
+  border-style: solid;
+  border: white;
+  float: left;
+  margin-left: 4%;
+  position: relative;
+}
 .navbar {
   overflow: hidden;
   /*background-color: #333;*/
@@ -47,6 +100,9 @@ a:visited {
 .landingPage{
   color: white;
 }
+.hidden{
+  display: hidden;
+}
 
 
 /*--------------------------------------------------------------------------*/
@@ -61,5 +117,31 @@ a:visited {
 #headshot{
   height: 15%;
   width:15%;
-  position: center;
+  position: relative;
+  box-shadow: 10px 10px 50px 25px;
+  display: block;
+  overflow: auto;
+  margin-left: 3em;
+  float: left;
 }
+.aboutSection{
+padding-left: 20em;
+}
+
+#skillsContainer{
+  border-color: white;
+  float: right;
+}
+#about{
+  float: right;
+}
+#projects{
+  float:right;
+}
+#contact{
+  float:right;
+}
+
+/*#imageContainer{
+  box-shadow: 20px 20px 50px 15px grey
+}*/
